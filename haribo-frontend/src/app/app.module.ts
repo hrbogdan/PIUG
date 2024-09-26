@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
-import { RatingModule } from 'ng-starrating';
 import { SearchComponent } from './components/search/search.component';
 import { FoodPageComponent } from './components/pages/food-page/food-page.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
@@ -25,6 +24,7 @@ import { LoadingComponent } from './components/partials/loading/loading.componen
 import { LoadingInterceptor } from './shared/interceptors/loading.interceptor';
 import { CheckoutPageComponent } from './components/pages/checkout-page/checkout-page.component';
 import { OrderItemListComponent } from './components/partials/order-item-list/order-item-list.component';
+import { MapComponent } from './components/partials/map/map.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +46,7 @@ import { OrderItemListComponent } from './components/partials/order-item-list/or
     LoadingComponent,
     CheckoutPageComponent,
     OrderItemListComponent,
+    MapComponent,
   ],
   imports: [
     BrowserModule,
