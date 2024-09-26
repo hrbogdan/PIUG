@@ -38,8 +38,6 @@ export class LoginPageComponent {
     if (this.loginForm.invalid) {
       return;
     }
-    alert(`email: ${this.fc.email.value}, password: ${this.fc.password.value}`);
-    console.log(this.loginForm.value);
 
     this.userService
       .login({

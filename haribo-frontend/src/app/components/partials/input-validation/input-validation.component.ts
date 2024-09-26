@@ -10,6 +10,8 @@ import { AbstractControl } from '@angular/forms';
 const VALIDATORS_MESSAGES: any = {
   required: 'This field should not be empty',
   email: 'Please enter a valid email address',
+  minlength: 'Field is too short',
+  notMatch: 'Passwords does not match',
 };
 
 @Component({
